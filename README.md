@@ -1,7 +1,8 @@
 # Multisite_Calcium
-A multisite calcium ion model optimized for calcium-protein interactions
+A multisite calcium ion model optimized for calcium-protein interactions in molecular dynamics simulations
 
-Usage of the Multi-site Ca++ (CAM) Model for Molecular Dynamics Simulations
+Usage of the Multi-site Ca++ (CAM) Model for Molecular Dynamics Simulations:
+
 This model was developed by the Song Group at Peking University.
 
 20190418 by Chunhong Liu
