@@ -14,8 +14,8 @@ Zhang, A., Yu, H., Liu, C. et al. The Ca2+ permeation mechanism of the ryanodine
 receptor revealed by a multi-site ion model. Nat Commun 11, 922 (2020). 
 https://doi.org/10.1038/s41467-020-14573-w
 
-The model should be used with the **CHARMM FORCE FIELD** and 
-**TIPS3P WATER MODEL**.
+The model should be used with the *CHARMM FORCE FIELD* and 
+*TIPS3P WATER MODEL*.
 
 **Please test the model very carefully in your simulation system before extensive usage.**
 
