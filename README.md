@@ -60,7 +60,7 @@ CMDS: ./put-octahedral-cam-to-gro.pl 0.0905 system.gro > system_cam.gro
 
 Step 4. manually edit topol.top. \
 (1) add a line of '#include "toppar/cam.itp"' below '#include "toppar/charmm36.itp"' \
-(2) change CAL to CAM \
+(2) change CAL to CAM
 
 Step 5. Generate tpr for gromacs simulation.\
 CMD: gmx grompp -f md.mdp -c system_cam.gro -p topol.top -o system.tpr -maxwarn 2 \
