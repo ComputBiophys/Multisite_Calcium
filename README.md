@@ -9,7 +9,7 @@ This model was developed by the Song Group at Peking University.
 
 20210129 by Aihua Zhang
 
-If the model is used in your work, please cite the following paper:
+If the model is used in your work, please cite the following paper:\
 Zhang, A., Yu, H., Liu, C. et al. The Ca2+ permeation mechanism of the ryanodine 
 receptor revealed by a multi-site ion model. Nat Commun 11, 922 (2020). 
 https://doi.org/10.1038/s41467-020-14573-w
