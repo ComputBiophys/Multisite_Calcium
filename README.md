@@ -55,15 +55,14 @@ Step 2. add declaration of Dz and Da atomtypes and include nbfix_cam.itp in
  the forcefield topology file. (toppar/charmm36.itp in this example) \
 CMD: ./add-atomtypes-nbfix.sh toppar/charmm36.itp
 
-Step 3. replace calcium cations (CAL) with CAM in system.gro structure file.
-CMDS: ./put-octahedral-cam-to-gro.pl 0.0905 system.gro > system_cam.gro \
+Step 3. replace calcium cations (CAL) with CAM in system.gro structure file. \
+CMDS: ./put-octahedral-cam-to-gro.pl 0.0905 system.gro > system_cam.gro
 
-Step 4. manually edit topol.top.
-(1) add a line of ``#include "toppar/cam.itp"'' below
-``#include "toppar/charmm36.itp"''
-(2) change CAL to CAM
+Step 4. manually edit topol.top. \
+(1) add a line of ``#include "toppar/cam.itp"'' below ``#include "toppar/charmm36.itp"'' \
+(2) change CAL to CAM \
 
 Step 5. Generate tpr for gromacs simulation.\
-CMD: gmx grompp -f md.mdp -c system_cam.gro -p topol.top -o system.tpr -maxwarn 2
+CMD: gmx grompp -f md.mdp -c system_cam.gro -p topol.top -o system.tpr -maxwarn 2 \
 Two warnings of atomtype overwriting due to definitions of Dz and Da in
 charmm36.itp and cam.itp are harmless.
