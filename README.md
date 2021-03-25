@@ -36,9 +36,9 @@ for more details.
 2. Files
 
 The CAM parameters are provided in two GROMACS *.itp files under the cam-itps
-directory:
+directory: \
 (1) cam.itp, which defines two atomtypes (Dz and Da) and the CAM molecule. Note
-that LJ parameters of Dz in cam.itp are those for protein interactions.
+that LJ parameters of Dz in cam.itp are those for protein interactions. \
 (2) nbfix_cam.itp, which refines the LJ interaction between Dz and water (OT and
 HT).
 
