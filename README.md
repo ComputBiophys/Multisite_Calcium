@@ -59,7 +59,7 @@ Step 3. replace calcium cations (CAL) with CAM in system.gro structure file. \
 CMDS: ./put-octahedral-cam-to-gro.pl 0.0905 system.gro > system_cam.gro
 
 Step 4. manually edit topol.top. \
-(1) add a line of ``#include "toppar/cam.itp"'' below ``#include "toppar/charmm36.itp"'' \
+(1) add a line of '#include "toppar/cam.itp"' below '#include "toppar/charmm36.itp"' \
 (2) change CAL to CAM \
 
 Step 5. Generate tpr for gromacs simulation.\
